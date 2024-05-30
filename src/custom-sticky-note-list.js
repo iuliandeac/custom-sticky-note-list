@@ -199,9 +199,9 @@ class CustomStickyNoteList extends HTMLElement {
 
     this.notes.forEach(note => {
       const noteElement = document.createElement('custom-sticky-note');
-      noteElement.setAttribute('title', note.title);
-      noteElement.setAttribute('body', note.body);
-      noteElement.setAttribute('due_date', note.due_date);
+      noteElement.setAttribute('title', note.title ? note.title : "New note");
+      noteElement.setAttribute('body', note.body ? note.body : "");
+      noteElement.setAttribute('due_date', note.due_date  ? note.due_date : "");
       noteElement.setAttribute('done', note.done);
       noteElement.setAttribute('color', note.color);
       noteElement.setAttribute('alignment', note.alignment);

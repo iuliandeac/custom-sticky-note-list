@@ -60,12 +60,12 @@ Sticky notes to display, in JSON Array format. Default is empty
 Object format that needs to be sent:
 ```javascript
 {
-  title: string, 
-  body: string, 
-  due_date: string,
-  done: boolean,
-  color: HEX,
-  alignment: string ["start", "end", "left", "right", "center", "justify"]
+  title: string, // Default: New note
+  body: string, // Default: empty
+  due_date: string, // Default: empty
+  done: boolean, // Default: false
+  color: HEX, // Default: #ffeb3b
+  alignment: string ["start", "end", "left", "right", "center", "justify"] // Default: left
 }
 ```
 

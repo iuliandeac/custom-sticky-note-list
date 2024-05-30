@@ -1,0 +1,31 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sticky Note List Web Component</title>
+	<script src="../src/custom-sticky-note-list.js"></script>
+	<style>
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			background-color: #f0f0f0;
+			margin: 0;
+			font-family: Arial, sans-serif;
+			flex-direction: column;
+		}
+	</style>
+</head>
+
+<body>
+	<custom-sticky-note-list note-width=300px note-font="Times New Roman" note-font-size=18px notes='[
+    {"title": "Shopping", "body": "Buy milk and eggs", "due_date": "2024-06-01", "done": false, "color": "#ffcc80", "alignment": "left"},
+    {"title": "Meeting", "body": "Project meeting at 10 AM", "due_date": "2024-05-29", "done": false, "color": "#ff0000", "alignment": "center"},
+    {"title": "Exercise", "body": "Morning yoga session", "due_date": "2024-05-28", "done": true, "color": "#80deea", "alignment": "right"}
+  ]'>
+	</custom-sticky-note-list>
+</body>
+
+</html>

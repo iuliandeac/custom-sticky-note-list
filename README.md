@@ -8,7 +8,7 @@ Custom sticky note list is a simple "to-do" like UI element showing a list of st
 
 Add custom-sticky-note-list to your project:
 ```
-npm i custom-sticky-note-list
+npm i @wcd/iuliandeac.custom-sticky-note-list
 ```
 
 ## Usage

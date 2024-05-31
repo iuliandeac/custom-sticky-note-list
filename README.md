@@ -20,7 +20,7 @@ import { CustomStickyNoteList } from "custom-sticky-note-list"
 
 or add to your html page:
 ```html
-	<script src="path/custom-sticky-note-list.js"></script>
+<script src="path/custom-sticky-note-list.js"></script>
 ```
 
 ## Use it in your HTML
